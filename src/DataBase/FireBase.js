@@ -4,15 +4,14 @@ import {getAuth , GoogleAuthProvider , signInWithPopup} from 'firebase/auth'
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBBeqOh0FHkOmkyDbcNqdmzLlyy0Hztsjs",
-    authDomain: "sql-bot-da600.firebaseapp.com",
-    projectId: "sql-bot-da600",
-    storageBucket: "sql-bot-da600.appspot.com",
-    messagingSenderId: "1029987381487",
-    appId: "1:1029987381487:web:4d5a51e04b2959cd506b1a",
-    measurementId: "G-5ZDQC5WSY3"
+  apiKey: "AIzaSyD38Vp57yXagEQI029-vgUwnU1zE2IKcAs",
+  authDomain: "chatbot-main-9f762.firebaseapp.com",
+  projectId: "chatbot-main-9f762",
+  storageBucket: "chatbot-main-9f762.appspot.com",
+  messagingSenderId: "247292110308",
+  appId: "1:247292110308:web:68e23afc885a648e4513f1",
+  measurementId: "G-L5ZW3EQXV2"
 };
-
 
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);

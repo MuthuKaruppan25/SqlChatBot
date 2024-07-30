@@ -61,7 +61,7 @@ const Chat = () => {
                 queryname: typedValue,
               };
 
-              const response = await fetch("http://192.0.0.2:8000/sql/", {
+              const response = await fetch("http://192.168.142.166:8000/sql/", {
                 method: "POST",
                 headers: {
                   "Content-Type": "application/json",
